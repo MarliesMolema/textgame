@@ -4,19 +4,26 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://unpkg.com/tailwindcss@^2.2.7/dist/tailwind.min.css" rel="stylesheet">
   <link href="styles.css" rel="stylesheet">
   <script defer src="script.js"></script>
   <title>Text Adventure</title>
 </head>
 <body>
-  <div class="container">
-    <div id="text">Text</div>
-    <div id="option-buttons">
-      <button>Choice 1</button>
-      <button>Choice 2</button>
-      <button>Choice 3</button>
-      <button>Choice 4</button>
+ 
+  <div class="bg-gray-300 w-full h-screen grid grid-cols-1 content-around">
+    <div class="items-center">
+      <div class="mx-auto md:w-2/3 md:text-center md:p-24 border-4 border-black md:text-md text-sm bg-gray-100">
+        <div id="text" class="md:text-xl">Text</div>
+          <div id="option-buttons" class="pt-10">
+            <button>Option 1</button>
+            <button>Option 2</button>
+            <button>Option 3</button>
+            <button>Option 4</button>
+          </div>
+      </div>
     </div>
-  </div>
+
+ 
 </body>
 </html>
