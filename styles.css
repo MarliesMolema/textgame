@@ -1,29 +1,48 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link href="https://unpkg.com/tailwindcss@^2.2.7/dist/tailwind.min.css" rel="stylesheet">
-  <link href="styles.css" rel="stylesheet">
-  <script defer src="script.js"></script>
-  <title>Text Adventure</title>
-</head>
-<body>
- 
-  <div class="bg-gray-300 w-full h-screen grid grid-cols-1 content-around">
-    <div class="items-center">
-      <div class="mx-auto md:w-2/3 md:text-center md:p-24 border-4 border-black md:text-md text-sm bg-gray-100">
-        <div id="text" class="md:text-xl">Text</div>
-          <div id="option-buttons" class="pt-10">
-            <button>Option 1</button>
-            <button>Option 2</button>
-            <button>Option 3</button>
-            <button>Option 4</button>
-          </div>
-      </div>
-    </div>
+element.style {
+}
+div {
+    padding: 20px;
+    font-family: agrandir;
+    font-size: 40px;  
+}
+  body {
+  background-color: #e7bad8;
+}
 
- 
-</body>
-</html>
+
+
+button {
+    appearance: auto;
+    writing-mode: horizontal-tb !important;
+    font-style: ;
+    font-variant-ligatures: ;
+    font-variant-caps: ;
+    font-variant-numeric: ;
+    font-variant-east-asian: ;
+    font-weight: bold;
+    font-stretch: ;
+    font-size: 16px;
+    font-family: calibri;
+    text-rendering: auto;
+    color:#ffffff;
+    letter-spacing: normal;
+    word-spacing: normal;
+    line-height: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: center;
+    align-items: flex-start;
+    cursor: default;
+    box-sizing: border-box;
+    background-color: #4CAF50;
+    border-radius: 15%;
+    
+    margin: 0em;
+    padding: 16px 8px;
+    border-width: 2px;
+    border-style: outset;
+    border-color: #000000;
+    border-image: initial;
+}
