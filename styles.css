@@ -1,14 +1,12 @@
 element.style {
 }
 div {
+    display: block;
+    background-color:#e7bad8;
     padding: 20px;
     font-family: calibri;
     font-size: 40px;  
 }
-  body {
-  background-color: #e7bad8;
-}
-
 
 
 button {
@@ -37,8 +35,8 @@ button {
     cursor: default;
     box-sizing: border-box;
     background-color: #4CAF50;
-    border-radius: 15%;
-    
+    border-radius: 25%;
+   
     margin: 0em;
     padding: 16px 8px;
     border-width: 2px;
